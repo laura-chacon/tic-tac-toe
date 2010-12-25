@@ -1,8 +1,10 @@
-#include <gtkmm.h>
+#include "ttt.h"
+#include <gtkmm/main.h>
 
 int main(int argc, char *argv[]) {
   Gtk::Main kit(argc, argv);
-  Gtk::Window window;
-  Gtk::Main::run(window);
+  TTT h;
+  Gtk::Main::run(h);
+
   return 0;
 }
